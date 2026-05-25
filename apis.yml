@@ -1,0 +1,123 @@
+aid: open-mhealth
+name: Open mHealth
+description: >-
+  Open mHealth is a nonprofit, community-driven initiative that develops open
+  standards and open-source software for making patient-generated health data
+  interoperable across mobile apps, wearables, clinical systems, and electronic
+  health records. Its core contribution is a library of clinically validated
+  JSON Schema data point schemas — covering physical activity, sleep, heart
+  rate, blood pressure, body weight, blood glucose, and other vital signs —
+  with the sleep, physical-activity, and metadata schemas now superseded by
+  IEEE 1752.1, the IEEE standard for Mobile Health Data co-shepherded by the
+  Open mHealth community. Around the schemas Open mHealth ships a stack of
+  Apache-2.0 reference implementations: Shimmer (a Java/Spring server that
+  pulls health data from Fitbit, Google Fit, iHealth, Misfit, RunKeeper, and
+  Withings APIs and normalizes it into Open mHealth or IEEE 1752.1 data
+  points), omh-dsu-ri (a Data Storage Unit reference implementation exposing
+  an OAuth 2.0-secured Data Point REST API on top of MongoDB and PostgreSQL),
+  Granola (an Objective-C library that serializes Apple HealthKit samples
+  into Open mHealth JSON), a web visualizations library built on D3 and
+  Plottable.js, the OMH-on-FHIR mapping that aligns Open mHealth data points
+  to HL7 FHIR resources, and a sample-data-generator. Open mHealth operates
+  as the steward of the standard, the schema and unit registry at
+  registry.openmhealth.org, and a developer community of thousands of
+  developers and health organizations including Cornell Tech, Kaiser
+  Permanente, Stanford School of Medicine, UC Davis, and UCSF. The project
+  has no commercial API, no paid tier, and no hosted SaaS — all artifacts
+  are open source under Apache 2.0 and the standard itself is openly
+  published.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Health
+  - Healthcare
+  - Mobile Health
+  - mHealth
+  - Digital Health
+  - Health Data
+  - Patient Generated Health Data
+  - Wearables
+  - Fitness
+  - Interoperability
+  - Open Standards
+  - Open Source
+  - JSON Schema
+  - IEEE 1752
+  - FHIR
+  - HealthKit
+  - Nonprofit
+url: https://raw.githubusercontent.com/api-evangelist/open-mhealth/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.openmhealth.org
+  - type: Documentation
+    url: https://www.openmhealth.org/documentation/
+  - type: Documentation
+    name: Overview
+    url: https://www.openmhealth.org/documentation/#/overview/get-started
+  - type: Documentation
+    name: Schemas
+    url: https://www.openmhealth.org/documentation/#/schema-docs/schema-library
+  - type: Documentation
+    name: Shimmer
+    url: https://www.openmhealth.org/documentation/#/data-providers/about-shims
+  - type: Documentation
+    name: OMH-on-FHIR
+    url: https://www.openmhealth.org/documentation/#/omh-on-fhir/omh-on-fhir-overview
+  - type: Documentation
+    name: HealthKit Integration (Granola)
+    url: https://www.openmhealth.org/documentation/#/healthkit/healthkit-overview
+  - type: Documentation
+    name: Web Visualizations
+    url: https://www.openmhealth.org/documentation/#/visualization-library/visualization-library-overview
+  - type: SchemaRegistry
+    name: Open mHealth Schema and Unit Registry
+    url: https://w3id.org/openmhealth
+  - type: Standard
+    name: IEEE 1752 — Open mHealth Standards
+    url: https://standards.ieee.org/ieee/1752/
+  - type: GitHubOrganization
+    url: https://github.com/openmhealth
+  - type: SourceCode
+    name: Schemas
+    url: https://github.com/openmhealth/schemas
+  - type: SourceCode
+    name: Shimmer
+    url: https://github.com/openmhealth/shimmer
+  - type: SourceCode
+    name: omh-dsu-ri (Data Storage Unit Reference Implementation)
+    url: https://github.com/openmhealth/omh-dsu-ri
+  - type: SourceCode
+    name: Granola (HealthKit serialization)
+    url: https://github.com/openmhealth/Granola
+  - type: SourceCode
+    name: Web Visualizations
+    url: https://github.com/openmhealth/web-visualizations
+  - type: SourceCode
+    name: OMH-on-FHIR
+    url: https://github.com/openmhealth/OMH-on-FHIR
+  - type: SourceCode
+    name: Sample Data Generator
+    url: https://github.com/openmhealth/sample-data-generator
+  - type: SourceCode
+    name: Schema and Unit Registry
+    url: https://github.com/openmhealth/registry.openmhealth.org
+  - type: Forum
+    name: omh-developers Google Group
+    url: https://groups.google.com/d/forum/omh-developers
+  - type: Twitter
+    url: https://twitter.com/openmhealth
+  - type: Contact
+    url: https://www.openmhealth.org/contact-us/
+  - type: License
+    name: Apache 2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
