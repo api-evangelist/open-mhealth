@@ -79,7 +79,7 @@ common:
   - type: SchemaRegistry
     name: Open mHealth Schema and Unit Registry
     url: https://w3id.org/openmhealth
-  - type: Standard
+  - type: Standards
     name: IEEE 1752 — Open mHealth Standards
     url: https://standards.ieee.org/ieee/1752/
   - type: GitHubOrganization
@@ -108,7 +108,7 @@ common:
   - type: SourceCode
     name: Schema and Unit Registry
     url: https://github.com/openmhealth/registry.openmhealth.org
-  - type: Forum
+  - type: Forums
     name: omh-developers Google Group
     url: https://groups.google.com/d/forum/omh-developers
   - type: Twitter
