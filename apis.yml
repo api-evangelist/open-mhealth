@@ -54,6 +54,8 @@ modified: '2026-05-25'
 specificationVersion: '0.20'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/open-mhealth-domain-security.yml
   - type: Website
     url: https://www.openmhealth.org
   - type: Documentation
@@ -118,6 +120,8 @@ common:
   - type: License
     name: Apache 2.0
     url: https://www.apache.org/licenses/LICENSE-2.0
+  - url: https://www.openmhealth.org/feed/
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
