@@ -27,6 +27,18 @@ description: >-
   are open source under Apache 2.0 and the standard itself is openly
   published.
 type: Index
+deliveryModel:
+  model: unknown
+  license: Apache 2.0
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - license
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
@@ -83,6 +95,10 @@ modified: '2026-05-25'
 specificationVersion: '0.23'
 apis: []
 common:
+  - type: IssueTracker
+    url: https://github.com/openmhealth/schemas/issues
+  - type: Releases
+    url: https://github.com/openmhealth/schemas/releases
   - type: DomainSecurity
     url: security/open-mhealth-domain-security.yml
   - type: Website
