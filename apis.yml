@@ -65,8 +65,8 @@ tags:
   - Fitness
   - Interoperability
   - Open Standard
-  - Open-Source
-  - JSON-Schema
+  - Open Source
+  - JSON Schema
   - IEEE 1752
   - FHIR
   - HealthKit
@@ -89,6 +89,8 @@ tags_raw:
   - FHIR
   - HealthKit
   - Nonprofit
+  - Open-Source
+  - JSON-Schema
 url: https://raw.githubusercontent.com/api-evangelist/open-mhealth/refs/heads/main/apis.yml
 created: '2026-05-25'
 modified: '2026-05-25'
