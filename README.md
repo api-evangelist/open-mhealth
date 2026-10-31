@@ -1,4 +1,4 @@
-# open-mhealth
+# Open mHealth
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Open mHealth — open standard (IEEE 1752) and open-source libraries for interoperable mobile health data
+Open mHealth is a nonprofit, community-driven initiative that develops open standards and open-source software for making patient-generated health data interoperable across mobile apps, wearables, clinical systems, and electronic health records. Its core contribution is a library of clinically validated JSON Schema data point schemas — covering physical activity, sleep, heart rate, blood pressure, body weight, blood glucose, and other vital signs — with the sleep, physical-activity, and metadata schemas now superseded by IEEE 1752.1, the IEEE standard for Mobile Health Data co-shepherded by the Open mHealth community. Around the schemas Open mHealth ships a stack of Apache-2.0 reference implementations: Shimmer (a Java/Spring server that pulls health data from Fitbit, Google Fit, iHealth, Misfit, RunKeeper, and Withings APIs and normalizes it into Open mHealth or IEEE 1752.1 data points), omh-dsu-ri (a Data Storage Unit reference implementation exposing an OAuth 2.0-secured Data Point REST API on top of MongoDB and PostgreSQL), Granola (an Objective-C library that serializes Apple HealthKit samples into Open mHealth JSON), a web visualizations library built on D3 and Plottable.js, the OMH-on-FHIR mapping that aligns Open mHealth data points to HL7 FHIR resources, and a sample-data-generator. Open mHealth operates as the steward of the standard, the schema and unit registry at registry.openmhealth.org, and a developer community of thousands of developers and health organizations including Cornell Tech, Kaiser Permanente, Stanford School of Medicine, UC Davis, and UCSF. The project has no commercial API, no paid tier, and no hosted SaaS — all artifacts are open source under Apache 2.0 and the standard itself is openly published.
+
+**Areas:** Health · Healthcare · Mobile Health · mHealth · Digital Health · Health Data · Patient Generated Health Data · Wearables · Fitness · Interoperability · Open Standard · Open Source
+
+## Open mHealth on APIs.io
+
+Everything profiled for Open mHealth is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/open-mhealth/](https://apis.io/providers/open-mhealth/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Open Mhealth Domain Security](https://apis.io/security/open-mhealth/open-mhealth-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.openmhealth.org)
+- [Documentation](https://www.openmhealth.org/documentation/)
+- [Blog](https://www.openmhealth.org/feed/)
+- [GitHub](https://github.com/openmhealth)
+
+## API Evangelist rating
+
+**Kin Score 8.5** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.7** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/open-mhealth/](https://apis.io/providers/open-mhealth/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Open mHealth: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/open-mhealth/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
